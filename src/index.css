@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.App {
+  width: 95%;
+  padding: 0 15px;
+  background-color: #f3f4f6;
+  min-height: 100vh; 
+  min-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: poppins;
+}
+
+.title {
+  /* font-weight: 700; */
+  font-size: 1.875rem;
+  margin-top: 0.625rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.slider {
+  width: 100%;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenureContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border-radius: 0.25rem;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+  transition: background-color 0.3s;
+}
+
+.selected {
+  background-color: #3b82f6;
+  color: white;
+}
